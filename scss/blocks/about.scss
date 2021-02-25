@@ -1,0 +1,37 @@
+.about {
+  margin: 0 auto;
+
+  width: 1110px;
+  margin-bottom: 27px;
+}
+
+.about__title {
+  text-align: center;
+  margin-top: -19px;
+}
+
+.about__content {
+  display: flex;
+  justify-content: space-between;
+
+  padding-left: 185px;
+  padding-right: 185px;
+  margin-top: -19px;
+}
+
+.about__content-photo {
+  img {
+    width: 195px;
+    height: 195px;
+
+    &:hover {
+      transform: translateY(-3px);
+			transition: transform .2s linear;
+    }
+  }
+}
+
+.about__content-text {
+  font-size: 26px;
+  padding-left: 30px;
+}
