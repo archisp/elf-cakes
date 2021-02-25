@@ -1,0 +1,151 @@
+.header__container {
+	margin: 0 auto; // выравнивание по центру, где 0 -отступ сверху и снизу, auto - одинаковый отступ справа и слева
+  display: flex;
+  justify-content: space-between; // флексы равномерно распределяются по всей строке слева и справа
+
+	width: 1110px;
+  height: 600px;
+
+  background-color: rgba($pink, .15); // цвет и прозрачность 15%
+}
+
+.header__inner-left {
+	// выравнивание по центру по вертикали
+	display: flex;
+  align-items: center;
+	flex-direction: column;
+	justify-content: center;
+
+	width: 65px;
+
+  background-color: $pink;
+
+	a {
+		text-decoration: none;
+		opacity: 85%;
+
+		&:hover {
+			transform: translateY(-3px);
+			transition: .2s;
+		}
+	}
+
+  img {
+    width: 27px;
+    height: 27px;
+		margin-bottom: 1em;
+		// fill="#ffffff" добавить в svg-файл после path
+  }
+}
+
+.header__inner-right {
+	width: 100%;
+}
+
+.header__nav-up {
+  display: flex;
+  justify-content: space-between;
+	margin-top: 36px
+}
+
+.nav-links {
+	padding-left: 130px;
+	margin-top: 5px;
+
+	a {
+		color: $black;
+		font-size: .9rem;
+		text-decoration: none;
+		margin: 0 1.4rem;
+
+		&:hover {
+			color: $orange;
+			border-bottom: 1px solid $orange;
+		}
+	}
+}
+
+.nav-phone {
+	display: flex;
+	padding-right: 36px;
+	margin-top: 5px;
+	font-size: .9rem;
+	color: $pink;
+
+	img {
+		width: 27px;
+    height: 27px;
+		margin-left: 36px;
+		margin-top: -5px;
+
+		&:hover {
+			transform: rotate(360deg);
+			transition: .5s;
+		}
+	}
+}
+
+.header__intro {
+	display: flex;
+  justify-content: space-between;
+}
+
+.intro__site-name {
+	margin-top: 120px;
+	margin-left: (130px + 21px); // отступ + поправка в .nav-links
+
+	a {
+		text-decoration: none;
+		color: $white;
+		background-color: $orange;
+		font-size: 18px;
+		text-transform: uppercase;
+		padding: 12px 35px;
+
+		border: 1px solid $orange;
+		border-radius: 10px;
+
+		&:hover {
+			background-color: rgba($orange, .75);
+		}
+	}
+}
+
+.site-name-desc {
+	color: $black;
+	font-size: 24px;
+	margin-bottom: -10px;
+}
+
+.site-name-title {
+	font-family: 'Amatic SC', cursive;
+	color: $pink;
+	font-size: 96px;
+	margin-bottom: 40px;
+}
+
+.intro__site-pict {
+	padding-right: 156px;
+	margin-top: 30px;
+}
+
+.header__nav-down {
+	display: flex;
+  justify-content: space-between;
+
+	padding-left: 130px;
+	padding-right: 130px;
+	margin-top: 24px;
+
+	a {
+		color: $black;
+		font-size: .8rem;
+		text-decoration: none;
+		margin: 0 1.4rem;
+
+		&:hover {
+			color: $orange;
+			border-bottom: 1px solid $orange;
+		}
+	}
+}

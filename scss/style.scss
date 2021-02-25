@@ -1,0 +1,25 @@
+// Imports
+@import "vars";
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+
+  font-family: 'Bellota Text', cursive;
+  font-size: 1rem;
+  color: $black;
+}
+
+// h1 {
+//   font-family: 'Amatic SC', cursive;
+//   font-size: 1.2rem;
+// }
+
+// Blocks
+@import "blocks/header";
