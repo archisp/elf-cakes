@@ -16,7 +16,7 @@ function test(done) {
 // задача scssToCss
 function css_style(done) {
 
-gulp.src('./scss/**/*.scss')                      // указываю с какими файлами работать
+gulp.src('./scss/style.scss')                     // указываю с какими файлами работать, было './scss/**/*.scss'
     .pipe(sourcemaps.init())                      // инициализируем плагин sourcemaps
     .pipe(sass({                                  // конвертируем scssToCss
     errorLogToConsole: true,                      // если в консоли нет ошибок

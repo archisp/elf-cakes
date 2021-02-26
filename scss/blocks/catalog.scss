@@ -1,0 +1,94 @@
+.catalog {
+  margin: 0 auto;
+  width: 1110px;
+  padding-left: 65px; // как у кнопки Header
+  padding-right: 65px;
+
+  background-color: rgba($pink, .15);
+}
+
+// .catalog__tort {
+//   position: absolute;
+//   // margin-top: 20px;
+//   margin-right: 165px;
+// }
+
+.catalog__title {
+  text-align: left;
+  margin-top: -15px;
+}
+
+.catalog__nav {
+  text-align: left;
+  margin-top: -20px;
+
+  a {
+    color: black;
+    font-size: 20px;
+    text-decoration: none;
+    margin-right: 1.4rem;
+
+    &:hover {
+      color: orange;
+      border-bottom: 1px solid orange;
+    }
+  }
+}
+
+.catalog__items {
+  display: flex;
+  flex-wrap: wrap;
+
+  margin-top: 35px;
+}
+
+.cat__item {
+  width: 31.33333%;
+  padding: 10px;
+  margin-right: 2%;
+  margin-bottom: 2%;
+  z-index: 10;
+
+  background-color: $white;
+  border: 1px solid $orange;
+  border-radius: 10px;
+
+  box-shadow: 0 0 5px rgba($black, .25);
+
+    transition: box-shadow .2s linear;
+
+    &:hover {
+        box-shadow: 0 0 15px rgba($black, .25);
+    }
+
+    img {
+      width: 285px;
+      height: 215px;
+      object-fit: cover;
+    }
+
+    .item__title {
+      font-size: 17px;
+      font-weight: bold;
+      padding-top: 5px;
+    }
+
+    .item__desc {
+      font-size: 14px;
+      padding-top: 5px;
+      padding-bottom: 10px;
+    }
+
+    .item__price {
+      text-align: center;
+      padding: 5px 0;
+
+      font-size: 14px;
+      font-weight: bold;
+      color: $white;
+
+      border: 1px solid $orange;
+      border-radius: 10px;
+      background-color: $orange;
+    }
+}
