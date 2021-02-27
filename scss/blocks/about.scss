@@ -1,18 +1,19 @@
 .about {
   margin: 0 auto;
   width: 1110px;
-  margin-bottom: 30px;
+  margin-bottom: 45px;
 }
 
-// .about__tort {
-//   position: absolute;
-//   margin-top: 20px;
-//   margin-left: 65px;
-// }
+.about__tort {
+  position: absolute;
+  display: block;
+  top: 660px;
+  left: 160px;
+}
 
 .about__title {
   text-align: center;
-  margin-top: -19px;
+  margin-top: 5px;
 }
 
 .about__content {
@@ -21,7 +22,6 @@
 
   padding-left: 185px;
   padding-right: 185px;
-  margin-top: -19px;
 }
 
 .about__content-photo {

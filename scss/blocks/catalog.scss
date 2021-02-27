@@ -1,26 +1,27 @@
 .catalog {
   margin: 0 auto;
+
   width: 1110px;
-  padding-left: 65px; // как у кнопки Header
-  padding-right: 65px;
+  padding-left: 145px; // как у кнопки в Header
+  padding-right: 145px;
 
   background-color: rgba($pink, .15);
 }
 
-// .catalog__tort {
-//   position: absolute;
-//   // margin-top: 20px;
-//   margin-right: 165px;
-// }
+.catalog__tort {
+  position: absolute;
+  display: block;
+  top: 1035px;
+  right: 160px;
+}
 
 .catalog__title {
   text-align: left;
-  margin-top: -15px;
+  padding-top: 3px;
 }
 
 .catalog__nav {
   text-align: left;
-  margin-top: -20px;
 
   a {
     color: black;
@@ -62,8 +63,8 @@
     }
 
     img {
-      width: 285px;
-      height: 215px;
+      width: 235px;
+      height: 176px;
       object-fit: cover;
     }
 
