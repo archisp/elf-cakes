@@ -2,13 +2,10 @@
   margin: 0 auto;
   width: 1110px;
   margin-bottom: 45px;
-}
 
-.about__tort {
-  position: absolute;
-  display: block;
-  top: 660px;
-  left: 160px;
+  background-image: url("/img/about-tort.png");
+  background-position: 70px 15px; // слева сверху
+  background-repeat: no-repeat;
 }
 
 .about__title {

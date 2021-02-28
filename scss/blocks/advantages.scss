@@ -7,6 +7,9 @@
   margin-bottom: 50px;
 
   // background-color: rgba($pink, .15);
+  background-image: url("/img/adv-tort.png");
+  background-position: 70px 15px; // слева сверху
+  background-repeat: no-repeat;
 }
 
 .advantages__title {
@@ -63,11 +66,4 @@
   &:hover {
     transform: translateY(-3px);
   }
-}
-
-.advantages__tort {
-  position: absolute;
-  display: block;
-  top: 2025px;
-  left: 160px;
 }

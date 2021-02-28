@@ -7,13 +7,9 @@
   padding-bottom: 35px;
 
   background-color: rgba($pink, .15);
-}
-
-.catalog__tort {
-  position: absolute;
-  display: block;
-  top: 1035px;
-  right: 160px;
+  background-image: url("/img/catalog-tort.png");
+  background-position: 870px 25px; // слева сверху
+  background-repeat: no-repeat;
 }
 
 .catalog__title {
