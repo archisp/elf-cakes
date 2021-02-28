@@ -24,9 +24,10 @@
 		text-decoration: none;
 		opacity: 85%;
 
+		transition: transform .2s linear;
+
 		&:hover {
 			transform: translateY(-3px);
-			transition: .2s;
 		}
 	}
 

@@ -1,0 +1,73 @@
+.advantages {
+  margin: 0 auto;
+
+  width: 1110px;
+  padding-left: 145px; // как у кнопки в Header
+  padding-right: 145px;
+  margin-bottom: 50px;
+
+  // background-color: rgba($pink, .15);
+}
+
+.advantages__title {
+  text-align: center;
+}
+
+.advantages__content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.advantages__text {
+  text-align: justify;
+  padding-right: 60px; // отрепетировать
+  width: 50%;
+
+  font-size: 26px;
+}
+
+.advantages__items {
+  display: flex;
+  flex-wrap: wrap;
+
+  width: 50%;
+}
+
+.adv-item {
+  text-align: center;
+
+  width: 47%;
+  margin-right: 2%;
+  margin-bottom: 2%;
+
+  background-color: rgba($pink, .15);
+  border: 1px solid $pink;
+  border-radius: 10px;
+
+  img {
+    width: 50px;
+    height: 50px;
+
+    margin-top: 10%;
+  }
+
+  p {
+    text-align: center;
+    font-weight: 700;
+    // text-transform: uppercase;
+  }
+
+  transition: transform .2s linear;
+
+  &:hover {
+    transform: translateY(-3px);
+  }
+}
+
+.advantages__tort {
+  position: absolute;
+  display: block;
+  top: 2025px;
+  left: 160px;
+}

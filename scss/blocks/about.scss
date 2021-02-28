@@ -29,9 +29,10 @@
     width: 195px;
     height: 195px;
 
+    transition: transform .2s linear;
+
     &:hover {
       transform: translateY(-3px);
-			transition: transform .2s linear;
     }
   }
 }
